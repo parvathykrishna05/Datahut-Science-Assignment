@@ -8,7 +8,8 @@ The focus of the task was not on building an app but on working with the data to
 
 ## Files in this Repository  
 - **Datahut Internship.ipynb** – Jupyter Notebook containing the cleaning and analysis steps.  
-- **myntra_womens_dresses_clean.csv** – Cleaned version of the dataset.  
+- **myntra_womens_dresses_clean.csv** – Cleaned version of the dataset.
+- **visualizations** – Images of visualizations
 - **report.pdf** – Short summary report (2–3 pages) highlighting the process, findings, and challenges.  
 - **README.md** – This file.  
 
@@ -53,13 +54,6 @@ The focus of the task was not on building an app but on working with the data to
 
 ---
 
-## How to Run  
-1. Install dependencies:  
-   ```bash
-   pip install pandas numpy matplotlib seaborn jupyter
-2. Open the notebook:
-   jupyter notebook myntra_womens_dresses.ipynb
-3. Run all cells to reproduce the cleaning and analysis.
 
 ## Conclusion
 This task helped me practice real-world data cleaning and exploratory analysis. It showed how data can be messy and inconsistent, and how careful preprocessing is important before deriving insights.
