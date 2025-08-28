@@ -81,4 +81,6 @@ driver.quit()
 # Save to CSV
 df = pd.DataFrame(all_products)
 df.to_csv("myntra_womens_dresses_raw.csv", index=False, encoding="utf-8-sig")
+df.to_excel("myntra_womens_dresses_raw.xls", index=False, engine="openpyxl")
 print(f"\n✅ Raw scrape complete: {df.shape[0]} products saved to myntra_womens_dresses_raw.csv")
+
